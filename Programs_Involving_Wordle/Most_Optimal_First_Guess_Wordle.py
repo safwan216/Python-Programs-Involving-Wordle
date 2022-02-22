@@ -9,7 +9,6 @@ with open("Wordle_Answers.txt", "r+") as f:
     for i in d:
         j = i[-6:-1]
         prev_ans.append(j)
-        j = ""
     f.close
 	
 print(prev_ans)
